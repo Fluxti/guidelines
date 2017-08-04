@@ -1,14 +1,4 @@
-#  Development and architectural  guidelines
-
-## Objective
-
-This wiki serves as a reference for architecture and development .
-
-The use of this guidelines is mandatory within Fluxti projects and everyone is welcome to contribute.
-
----
-
-## Index
+# Git guidelines
 
 ## Git Commit Guidelines
 
@@ -42,3 +32,4 @@ Must be one of the following:
 * performance: A code change that improves performance
 * test: Adding missing or correcting existing tests
 * chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
