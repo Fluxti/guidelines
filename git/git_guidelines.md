@@ -41,8 +41,8 @@ Must be one of the following:
 
 ### Scope 
 
-The scope should be related to the current feature , if the scope has multiple
-works it must be written with underscore _  e.g.
+The scope should be related to the current feature .
+e.g.
 
 ```
 feature(login) addition of fields
@@ -72,6 +72,11 @@ Is prefered to use the following as actions :
 * deletion
 * fix 
 * refactor
+* merge
+
+For merges done with --no-ff the naming convention is 
+
+```merge of (merging_branch) into (base_branch) ``` 
 
 ### Body
 
@@ -114,14 +119,22 @@ Instead of a single master branch, this workflow uses two branches to record the
 
 ![historical_branches](../images/gitflow_1.svg)
 
-
 The rest of this workflow revolves around the distinction between these two branches.
+
+The naming convention for both branches is :
+For development branch : ```develop```
+For master ```master``` is the default created branch
 
 ### Feature Branches
 
 ![feature_branches](../images/gitflow_2.svg)
 
 Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration. But, instead of branching off of master, feature branches use develop as their parent branch. When a feature is complete, it gets merged back into develop. Features should never interact directly with master.
+
+Feature branches are created with the following naming convention : 
+```feature/feature_name```
+
+Example : ```feature/git_guidelines```
 
 ### Release Branches
 
@@ -131,6 +144,10 @@ Once develop has acquired enough features for a release (or a predetermined rele
 
 Using a dedicated branch to prepare releases makes it possible for one team to polish the current release while another team continues working on features for the next release. It also creates well-defined phases of development (e.g., it's easy to say, “this week we're preparing for version 4.0” and to actually see it in the structure of the repository).
 
+The release branch is created as ```release/release_release_number``` 
+
+Example : ```release/release_1.2```
+
 ### Maintenance Branches
 
 ![maintenance_branches](../images/gitflow_4.svg)
@@ -139,6 +156,10 @@ Maintenance or “hotfix” branches are used to quickly patch production releas
 
 Having a dedicated line of development for bug fixes lets your team address issues without interrupting the rest of the workflow or waiting for the next release cycle. You can think of maintenance branches as ad hoc release branches that work directly with master.
 
+Hotfix branches are created with the following naming convention :
+```hotfix/hotfix_release_version_number```
+
+Example : ```hotfix/hotfix_1.2```
 
 ## Pull requests
 
