@@ -134,7 +134,7 @@ Each new feature should reside in its own branch, which can be pushed to the cen
 Feature branches are created with the following naming convention : 
 ```feature/feature_name```
 
-Example : ```feature/git_guidelines```
+Example : ``` feature/git_guidelines ```
 
 ### Release Branches
 
@@ -159,7 +159,7 @@ Having a dedicated line of development for bug fixes lets your team address issu
 Hotfix branches are created with the following naming convention :
 ```hotfix/hotfix_release_version_number```
 
-Example : ```hotfix/hotfix_1.2```
+Example : ``` hotfix/hotfix_1.2```
 
 ## Pull requests
 
