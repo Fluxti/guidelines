@@ -4,6 +4,7 @@
 ### [Git commit guidelines](#commit_guidelines)
 ### [Branching strategy](#branching_strategy)
 ### [Pull requests](#pull_requests)
+### [Tools](#tools)
 
 ## <a name="commit_guidelines"></a> Git Commit Guidelines
 
@@ -41,7 +42,7 @@ Must be one of the following:
 
 ### Scope 
 
-The scope should be related to the current feature .
+The scope should be the name of the current branch :  feature / hotfix / release  .
 e.g.
 
 ```
@@ -208,3 +209,16 @@ This fixes handling of…
 * Try to respond to every comment.
 * Link to any follow up commits or Pull Requests. (“Good call! Done in 1682851”)
 * If there is growing confusion or debate, ask yourself if the written word is still the best form of communication. Talk (virtually) face-to-face, then mutually consider posting a follow-up to summarize any offline discussion (useful for others who be following along, now or later).
+
+## <a name="tools"></a> Tools
+
+Linux / OSX : Command line
+Windows : git bash 
+
+###Merging 
+
+Merging tools : kdiff3
+
+### Repository management services
+
+The current repository management is VSTS
