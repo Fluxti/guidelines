@@ -215,7 +215,7 @@ This fixes handling of…
 Linux / OSX : Command line
 Windows : git bash 
 
-###Merging 
+### Merging 
 
 Merging tools : kdiff3
 
