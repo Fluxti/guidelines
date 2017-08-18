@@ -65,7 +65,7 @@ The subject contains succinct description of the change:
 * no dot (.) at the end
 
 Composed by 
-```action [of|to] target|element```
+```action (of|to) (target|element)[of|to] [targer|element]```
 
 Is prefered to use the following as actions :
 * addition
@@ -74,6 +74,7 @@ Is prefered to use the following as actions :
 * fix 
 * refactor
 * merge
+* move 
 
 For merges done with --no-ff the naming convention is 
 
