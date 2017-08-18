@@ -65,6 +65,7 @@ The subject contains succinct description of the change:
 * no dot (.) at the end
 
 Composed by 
+
 ```action (of|to) (target|element)[of|to] [targer|element]```
 
 Is prefered to use the following as actions :
@@ -82,19 +83,26 @@ For merges done with --no-ff the naming convention is
 
 ### Body
 
-Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes". The body should include the motivation for the change and contrast this with previous behavior.
+Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes".
+
+ The body should include the motivation for the change and contrast this with previous behavior.
+
+In general the body elements must follow the same pattern as the subject 
+
+```action (of|to) (target|element)[of|to] [target|element]```
 
 ```
-feature(login): addition of fields
-
-Addition of login fields:
-- username
-- password
+modification of size variables
+addition of login fields
+fix of input validation
+refactor of variable names
+deletion of unused files
+move of resource files
 ```
 
 ### Footer
 
-The footer should contain any information about Breaking Changes and is also the place to reference GitHub issues that this commit closes.
+The footer should contain any information about Breaking Changes and is also the place to reference  issues that this commit closes.
 
 Breaking Changes should start with the word BREAKING CHANGE: with a space or two newlines. The rest of the commit message is then used for this.
 
