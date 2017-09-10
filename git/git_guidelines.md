@@ -3,7 +3,7 @@
 ## Index
 ### [Git commit guidelines](#commit_guidelines)
 ### [Branching strategy](#branching_strategy)
-### [Pull requests](#pull_requests)
+### [Pull requests](#pull)
 ### [Tools](#tools)
 
 ## <a name="commit_guidelines"></a> Git Commit Guidelines
@@ -40,7 +40,7 @@ Must be one of the following:
 * test: Adding missing or correcting existing tests
 * chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
-### Scope 
+### Scope 
 
 The scope should be the name of the current branch :  feature / hotfix / release  .
 e.g.
@@ -56,7 +56,7 @@ test(main) addition of login test
 chore(maven) modification of dev profile 
 ```
 
-### Subject 
+### Subject 
 
 The subject contains succinct description of the change:
 
@@ -171,7 +171,7 @@ Hotfix branches are created with the following naming convention :
 
 Example : ``` hotfix/hotfix_1.2```
 
-## Pull requests
+## <a name="pull"></a> Pull requests
 
 ### Pull requests guidelines
 
@@ -222,6 +222,7 @@ This fixes handling of…
 ## <a name="tools"></a> Tools
 
 Linux / OSX : Command line
+
 Windows : git bash 
 
 ### Merging 
@@ -230,4 +231,4 @@ Merging tools : kdiff3
 
 ### Repository management services
 
-The current repository management is VSTS
+The current repository management tool is bitbucket for internal code and github for public standards.
