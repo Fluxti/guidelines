@@ -997,6 +997,7 @@ https://blog.golang.org/
 Define a GOPATH variable on ~/.bash_profile or ~/.bashrc that references the go workspace .
 
 export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin"
 
 Export the bin directory to the path
 export PATH="$HOME/go/bin:$PATH"
