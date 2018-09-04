@@ -1,10 +1,24 @@
-# Git guidelines
+# VCS guidelines
 
 ## Index
+### [VCS Philosophy](#philosophy)
 ### [Git commit guidelines](#commit_guidelines)
 ### [Branching strategy](#branching_strategy)
 ### [Pull requests](#pull_requests)
 ### [Tools](#tools)
+### [Team foundation hooks](#hooks)
+
+## <a name="philosohpy"></a> VCS Philosophy
+
+We strive to improve our VCS with the following values :
+* Use open source VCS with SaaS as main option and PaaS for emergency or cost reduction
+* Prepare your VCS (branches,hooks,tools,etc) in order to reduce risk of failure and adapt to standards
+* Be open to test new technologies but do not try to big bang everything to the newest things
+* Once technology passes an evaluation process and everything is ok , start with standards and tools
+* Standards must be open for contribution
+* We modify our tools to our standards , not out standards to our tools
+* Everything must follow a convention , if something does not follow a convention , then create one
+* Remember to leave "one last commit" when you finish your job on a repo .
 
 ## <a name="commit_guidelines"></a> Git Commit Guidelines
 
